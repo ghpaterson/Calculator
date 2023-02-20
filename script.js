@@ -1,3 +1,5 @@
+const { MODULEDECLARATION_TYPES } = require("@babel/types");
+
 class Calculator {
   constructor(previousOperandTextElement, currentOperandTextElement) {
     this.previousOperandTextElement = previousOperandTextElement;
@@ -134,3 +136,5 @@ deleteButton.addEventListener("click", (button) => {
   calculator.delete();
   calculator.updateDisplay();
 });
+
+module.exports = Calculator();
