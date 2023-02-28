@@ -1,5 +1,3 @@
-const { MODULEDECLARATION_TYPES } = require("@babel/types");
-
 class Calculator {
   constructor(previousOperandTextElement, currentOperandTextElement) {
     this.previousOperandTextElement = previousOperandTextElement;
